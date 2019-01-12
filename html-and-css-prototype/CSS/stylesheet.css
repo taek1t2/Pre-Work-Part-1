@@ -1,14 +1,15 @@
 /* Global resets */
 * {
 	box-sizing: border-box;
-	margin: 0;
+	margin: 0 auto; /* to center everything auto */
 	padding: 0;
 }
 
 body {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	color: #424242;
+	color: #777;
 	line-height: 1.4;
+	width: 450px; /* added this in for width of the page to narrow little more */
 }
 
 /* Fonts */
@@ -23,6 +24,7 @@ h1 {
 	max-width: 630px;
 	text-align: center;
 }
+
 
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
 
@@ -40,3 +42,96 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.row-2 {
+	padding: 20px;
+	border: 2px solid #eaeaea;
+}
+
+p {
+	text-align: left;
+}
+
+#thisAmount {
+	padding: 10px;
+	border: none;
+	background-color: #777;
+	color: white;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	border-radius: 3px;
+}
+
+#littleTriangle {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 15px solid #777;
+	float: right;
+	margin-right: 70px;
+}
+
+.imABox {
+	width: 450px;
+	height: 25px;
+	border: 2px solid #eaeaea;
+	margin-top: 20px;
+}
+
+#withinAnotherBox {
+	width: 300px;
+	height: 25px;
+	border: none;
+	background-color: #EF5F3C;
+	float: left;
+}
+
+#onlyDays {
+	color: #EF5F3C;
+}
+
+.numContainer {
+	margin: 0 auto;
+}
+
+.input-field {
+	padding: 15px 0;
+	border-radius: 5px;
+}
+
+.btnGiveNow {
+	background-color: #1CBC2C;
+	padding: 10px;
+	border: none;
+	margin-left: 20px;
+	border-radius: 5px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-style: bold;
+	font-size: 20px;
+	color: white;
+}
+
+.link-btn-primary {
+	color: #20A1D4;
+}
+
+.saveForLater {
+	background-color: #eaeaea;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 15px;
+	color: #777;
+	margin-right: 15px;
+}
+
+.tellYourFriends {
+	background-color: #eaeaea;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 15px;
+	color: #777;
+}
